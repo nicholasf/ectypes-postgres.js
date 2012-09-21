@@ -1,4 +1,4 @@
-# ectypes-node-postgres
+# ectypes-postgres
 
 An ectypes strategy for node-postgres
 
