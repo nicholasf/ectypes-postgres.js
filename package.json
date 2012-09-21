@@ -1,26 +1,26 @@
 {
   "name": "ectypes-node-postgres",
   "description": "An ectypes strategy for node-postgres",
-  "version": "0.1.0",
-  "homepage": "https://github.com/nicholas/ectypes-node-postgres",
+  "version": "0.1.1",
+  "homepage": "https://github.com/nicholas/ectypes-postgres",
   "author": {
     "name": "Nicholas Faiz",
     "email": "nicholas.faiz@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nicholas/ectypes-node-postgres.git"
+    "url": "git://github.com/nicholas/ectypes-postgres.git"
   },
   "bugs": {
-    "url": "https://github.com/nicholas/ectypes-node-postgres/issues"
+    "url": "https://github.com/nicholas/ectypes-postgres/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/nicholas/ectypes-node-postgres/blob/master/LICENSE-MIT"
+      "url": "https://github.com/nicholas/ectypes-postgres/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/ectypes-node-postgres",
+  "main": "lib/ectypes-postgres",
   "engines": {
     "node": "0.8.0"
   },
