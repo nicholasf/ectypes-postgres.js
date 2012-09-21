@@ -36,9 +36,9 @@ describe("it inserts data!", function(done){
 
   it('creates an object', function(done){
     var cb = function(err, project){
-      console.log(arguments, " <<<< 1");
-      console.log(project);
       should.exist(project);
+      project.rowCount.should.equal(1);
+
       done();
     }
     ctx.Project.create(cb);
