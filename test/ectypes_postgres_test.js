@@ -1,4 +1,4 @@
-var PGStrategy = require('../lib/ectypes-node-postgres.js');
+var PGStrategy = require('../lib/ectypes_postgres.js');
 
 var ectypes = require('ectypes')
   , should = require('should')
