@@ -1,5 +1,5 @@
 {
-  "name": "ectypes-node-postgres",
+  "name": "ectypes-postgres",
   "description": "An ectypes strategy for node-postgres",
   "version": "0.1.1",
   "homepage": "https://github.com/nicholas/ectypes-postgres",
