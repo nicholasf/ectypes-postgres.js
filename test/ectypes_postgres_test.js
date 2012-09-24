@@ -28,7 +28,6 @@ describe("it inserts data!", function(done){
 
     pg.connect(env.connectionString, function(err, client){
       client.query(sql, function(err, result){
-//        console.log("the database is recreated!", arguments);
         done();
       });
     })
@@ -37,7 +36,9 @@ describe("it inserts data!", function(done){
   it('creates an object', function(done){
     var cb = function(err, project){
       should.exist(project);
-      project.rowCount.should.equal(1);
+      var rowCount = parseInt(project.rowCount);
+      console.log("And the winner is! ", rowCount);      
+      rowCount.should.equal(1);
 
       done();
     }
