@@ -1,7 +1,7 @@
 {
   "name": "ectypes-postgres",
   "description": "An ectypes strategy for node-postgres",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/nicholas/ectypes-postgres",
   "author": {
     "name": "Nicholas Faiz",
