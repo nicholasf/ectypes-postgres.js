@@ -1,1 +1,2 @@
-config/defaults.json
+*.iml
+node_modules

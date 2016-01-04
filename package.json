@@ -21,18 +21,18 @@
     }
   ],
   "main": "lib/ectypes_postgres",
-  "engines": {
-    "node": "0.8.0"
-  },
   "scripts": {
     "test": "mocha test/"
   },
   "keywords": [],
+  "peerDependencies": {
+    "ectypes": "~1.x"
+  },
   "dependencies": {
-    "pg": "~0.8.4",
+    "faker": "*",
     "lingo": "0.0.5",
     "nconf": "~0.6.4",
-    "ectypes": "1.0.0",
-    "faker2": "~0.5.0"
+    "pg": "*",
+    "should": "^8.0.2"
   }
 }
